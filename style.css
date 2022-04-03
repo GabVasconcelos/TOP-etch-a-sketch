@@ -3,20 +3,22 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
+    background-color: white;
 }
 
 .container {
     display: grid;
-    grid-template-columns: repeat(32, 10px);
-    gap: 1px;
+    grid-template-columns: 10px;
+    grid-template-rows: 10px;
 }
 
 .pixel {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-color: black;
+    background-color: white;
+    border: 1px solid;
 }
 
 .hover {
