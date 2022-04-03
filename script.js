@@ -20,9 +20,6 @@ function drawcanvas(size) {
 				color -= 25.5
 				div.style.backgroundColor = `rgba(0, ${color}, ${color}, 1)`
 			})
-			// div.addEventListener("mouseout", (event) => {
-			// 	event.target.classList.remove("hover")
-			// })
 		}
 	}
 }
