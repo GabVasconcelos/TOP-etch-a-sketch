@@ -26,7 +26,7 @@ function drawcanvas(size) {
 
 clearbutton.addEventListener("click", event => {
 	let size = prompt("What size do you want now?")
-	size = Number(size) && clamp(16, 100, size) || 32
+	size = Number(size) && clamp(8, 100, size) || 32
 	drawcanvas(size)
 })
 
